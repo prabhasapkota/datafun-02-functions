@@ -1,0 +1,52 @@
+2023-08-31 08:41:37,094.doctest_fun.INFO ==================================================
+2023-08-31 08:41:37,095.doctest_fun.INFO Today is 2023-08-31 at 08:41 AM
+2023-08-31 08:41:37,095.doctest_fun.INFO Running on: posix Darwin 21.1.0
+2023-08-31 08:41:37,095.doctest_fun.INFO Python version:  3.11.4
+2023-08-31 08:41:37,095.doctest_fun.INFO Python path: /Library/Frameworks/Python.framework/Versions/3.11
+2023-08-31 08:41:37,095.doctest_fun.INFO Working dir: /Users/prabha/Documents/CSIS-44608/datafun-02-functions
+2023-08-31 08:41:37,095.doctest_fun.INFO ==================================================
+2023-08-31 08:41:37,095.doctest_fun.INFO CALLING add_two(5,5)
+2023-08-31 08:41:37,095.doctest_fun.INFO RETURNING 10
+2023-08-31 08:41:37,095.doctest_fun.INFO CALLING add_triangle_list([5, 5, 5])
+2023-08-31 08:41:37,095.doctest_fun.INFO RETURNING 15
+2023-08-31 08:41:37,095.doctest_fun.INFO CALLING add_any_using_args((2,))
+2023-08-31 08:41:37,095.doctest_fun.INFO RETURNING 2
+2023-08-31 08:41:37,095.doctest_fun.INFO CALLING add_any_using_args((2, 2))
+2023-08-31 08:41:37,095.doctest_fun.INFO RETURNING 4
+2023-08-31 08:41:37,095.doctest_fun.INFO CALLING add_any_using_args((2, 2, 2))
+2023-08-31 08:41:37,095.doctest_fun.INFO RETURNING 6
+2023-08-31 08:41:37,095.doctest_fun.INFO CALLING add_any_using_args((2, 2, 2, 2))
+2023-08-31 08:41:37,095.doctest_fun.INFO RETURNING 8
+2023-08-31 08:41:37,095.doctest_fun.INFO CALLING add_any_with_keywords({'a': 8, 'b': 2})
+2023-08-31 08:41:37,095.doctest_fun.INFO RETURNING 10
+2023-08-31 08:41:37,095.doctest_fun.INFO CALLING add_any_with_keywords({'first': 8, 'second': 2, 'third': 3})
+2023-08-31 08:41:37,095.doctest_fun.INFO RETURNING 13
+2023-08-31 08:41:37,095.doctest_fun.INFO CALLING add_any_with_keywords({'only': 8})
+2023-08-31 08:41:37,095.doctest_fun.INFO RETURNING 8
+2023-08-31 08:41:37,096.doctest_fun.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=False)
+2023-08-31 08:41:37,096.doctest_fun.INFO RETURNING bearcat
+2023-08-31 08:41:37,096.doctest_fun.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=True)
+2023-08-31 08:41:37,096.doctest_fun.INFO RETURNING tacraeb
+2023-08-31 08:41:37,096.doctest_fun.INFO CALLING transform_using_keyword_args_with_default_values(input=hello, reverse=True)
+2023-08-31 08:41:37,096.doctest_fun.INFO RETURNING olleh
+2023-08-31 08:41:37,096.doctest_fun.INFO ===========================================================
+2023-08-31 08:41:37,096.doctest_fun.INFO Running doctest.testmod() function to unit test our code
+2023-08-31 08:41:37,096.doctest_fun.INFO ===========================================================
+2023-08-31 08:41:37,164.doctest_fun.INFO CALLING add_two(1,2)
+2023-08-31 08:41:37,164.doctest_fun.INFO RETURNING 3
+2023-08-31 08:41:37,164.doctest_fun.INFO CALLING add_two(hello, world)
+2023-08-31 08:41:37,164.doctest_fun.INFO RETURNING hello world
+2023-08-31 08:41:37,164.doctest_fun.INFO CALLING add_triangle_list([3, 4, 5])
+2023-08-31 08:41:37,164.doctest_fun.INFO RETURNING 12
+2023-08-31 08:41:37,164.doctest_fun.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=False)
+2023-08-31 08:41:37,164.doctest_fun.INFO RETURNING bearcat
+2023-08-31 08:41:37,164.doctest_fun.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=True)
+2023-08-31 08:41:37,164.doctest_fun.INFO RETURNING tacraeb
+2023-08-31 08:41:37,164.doctest_fun.INFO CALLING transform_using_keyword_args_with_default_values(input=hello, reverse=True)
+2023-08-31 08:41:37,164.doctest_fun.INFO RETURNING olleh
+2023-08-31 08:41:37,164.doctest_fun.INFO CALLING add_any_using_args((1, 1, 1, 1, 1, 1, 1, 1))
+2023-08-31 08:41:37,164.doctest_fun.INFO RETURNING 8
+2023-08-31 08:41:37,164.doctest_fun.INFO CALLING add_any_with_keywords({'a': 1, 'b': 2})
+2023-08-31 08:41:37,165.doctest_fun.INFO RETURNING 3
+2023-08-31 08:41:37,165.doctest_fun.INFO All tests passed!
+2023-08-31 08:41:37,165.doctest_fun.INFO Script complete. More info in the log file.
