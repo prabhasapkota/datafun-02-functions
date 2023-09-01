@@ -1,31 +1,32 @@
-2023-08-31 14:04:52,756.user_math_prabha.INFO ==================================================
-2023-08-31 14:04:52,756.user_math_prabha.INFO Today is 2023-08-31 at 02:04 PM
-2023-08-31 14:04:52,756.user_math_prabha.INFO Running on: posix Darwin 21.1.0
-2023-08-31 14:04:52,756.user_math_prabha.INFO Python version:  3.11.4
-2023-08-31 14:04:52,756.user_math_prabha.INFO Python path: /Library/Frameworks/Python.framework/Versions/3.11
-2023-08-31 14:04:52,757.user_math_prabha.INFO Working dir: /Users/prabha/Documents/CSIS-44608/datafun-02-functions
-2023-08-31 14:04:52,757.user_math_prabha.INFO ==================================================
-2023-08-31 14:04:52,757.user_math_prabha.INFO Explore some functions in the math module
-2023-08-31 14:04:52,757.user_math_prabha.INFO math.comb(6,2) = 15
-2023-08-31 14:04:52,757.user_math_prabha.INFO math.perm(6,2) = 30
-2023-08-31 14:04:52,757.user_math_prabha.INFO 
-2023-08-31 14:04:52,757.user_math_prabha.INFO TRY: Call get_leaf_area_given_height()_and_width() function with a different values.
-2023-08-31 14:04:52,757.user_math_prabha.INFO CALLING get_leaf_area((4, 2))
-2023-08-31 14:04:52,757.user_math_prabha.INFO The leaf area is 8cm*cm
-2023-08-31 14:04:52,757.user_math_prabha.INFO CALLING get_leaf_area((6, 5))
-2023-08-31 14:04:52,757.user_math_prabha.INFO The leaf area is 30cm*cm
-2023-08-31 14:04:52,757.user_math_prabha.INFO CALLING get_leaf_area((3, 2))
-2023-08-31 14:04:52,757.user_math_prabha.INFO The leaf area is 6cm*cm
-2023-08-31 14:04:52,757.user_math_prabha.INFO 
-2023-08-31 14:04:52,757.user_math_prabha.INFO TRY: Call get_leaf_area_list() function with a list of values
-2023-08-31 14:04:52,757.user_math_prabha.INFO CALLING get_leaf_areas_given_lists(([9, 3, 6, 8, 4, 5], [2, 1, 3, 2, 4, 3]))
-2023-08-31 14:04:52,757.user_math_prabha.INFO height = 9, width = 2, area=18
-2023-08-31 14:04:52,757.user_math_prabha.INFO height = 3, width = 1, area=3
-2023-08-31 14:04:52,757.user_math_prabha.INFO height = 6, width = 3, area=18
-2023-08-31 14:04:52,757.user_math_prabha.INFO height = 8, width = 2, area=16
-2023-08-31 14:04:52,757.user_math_prabha.INFO height = 4, width = 4, area=16
-2023-08-31 14:04:52,757.user_math_prabha.INFO height = 5, width = 3, area=15
-2023-08-31 14:04:52,757.user_math_prabha.INFO 
-2023-08-31 14:04:52,757.user_math_prabha.INFO TRY: Call get_total_leafnumbers() function with a different values
-2023-08-31 14:04:52,757.user_math_prabha.INFO CALLING get_total_leafnumbers([3, 4, 2, 10, 5])
-2023-08-31 14:04:52,757.user_math_prabha.INFO Total leafnumbers is 24
+2023-09-01 17:53:44,595.user_math_prabha.INFO ==================================================
+2023-09-01 17:53:44,595.user_math_prabha.INFO Today is 2023-09-01 at 05:53 PM
+2023-09-01 17:53:44,595.user_math_prabha.INFO Running on: posix Darwin 21.1.0
+2023-09-01 17:53:44,595.user_math_prabha.INFO Python version:  3.11.4
+2023-09-01 17:53:44,595.user_math_prabha.INFO Python path: /Library/Frameworks/Python.framework/Versions/3.11
+2023-09-01 17:53:44,595.user_math_prabha.INFO Working dir: /Users/prabha/Documents/CSIS-44608/datafun-02-functions
+2023-09-01 17:53:44,595.user_math_prabha.INFO ==================================================
+2023-09-01 17:53:44,595.user_math_prabha.INFO Explore some functions in the math module
+2023-09-01 17:53:44,596.user_math_prabha.INFO math.comb(6,2) = 15
+2023-09-01 17:53:44,596.user_math_prabha.INFO math.perm(6,2) = 30
+2023-09-01 17:53:44,596.user_math_prabha.INFO 
+2023-09-01 17:53:44,596.user_math_prabha.INFO TRY: Call get_leaf_area_given_height()_and_width() function with a different values.
+2023-09-01 17:53:44,596.user_math_prabha.INFO CALLING get_field_area((50, 20))
+2023-09-01 17:53:44,596.user_math_prabha.INFO The field area is 1000sq.m
+2023-09-01 17:53:44,596.user_math_prabha.INFO CALLING get_field_area((64, 51))
+2023-09-01 17:53:44,596.user_math_prabha.INFO The field area is 3264sq.m
+2023-09-01 17:53:44,596.user_math_prabha.INFO CALLING get_field_area((33, 21))
+2023-09-01 17:53:44,596.user_math_prabha.INFO The field area is 693sq.m
+2023-09-01 17:53:44,596.user_math_prabha.INFO 
+2023-09-01 17:53:44,596.user_math_prabha.INFO TRY: Call get_leaf_area_list() function with a list of values
+2023-09-01 17:53:44,596.user_math_prabha.INFO CALLING get_field_areas_given_lists(([39, 38, 60, 80, 45, 58], [23, 19, 38, 22, 44, 35]))
+2023-09-01 17:53:44,596.user_math_prabha.INFO height = 39, width = 23, area=897
+2023-09-01 17:53:44,596.user_math_prabha.INFO height = 38, width = 19, area=722
+2023-09-01 17:53:44,596.user_math_prabha.INFO height = 60, width = 38, area=2280
+2023-09-01 17:53:44,596.user_math_prabha.INFO height = 80, width = 22, area=1760
+2023-09-01 17:53:44,596.user_math_prabha.INFO height = 45, width = 44, area=1980
+2023-09-01 17:53:44,596.user_math_prabha.INFO height = 58, width = 35, area=2030
+2023-09-01 17:53:44,596.user_math_prabha.INFO 
+2023-09-01 17:53:44,596.user_math_prabha.INFO TRY: Call get_total_leafnumbers() function with a different values
+2023-09-01 17:53:44,596.user_math_prabha.INFO CALLING get_total_plantnumbers([31, 87, 220, 102, 58])
+2023-09-01 17:53:44,596.user_math_prabha.INFO Total plantnumbers is 498
+2023-09-01 17:53:44,596.user_math_prabha.INFO 
