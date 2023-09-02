@@ -54,15 +54,6 @@ def sum_two(first, second):
 
     logger.info(f"RETURNING {sum}")
     return sum
-
-def sum_two(first, second):
-    """Return the sum of any two arguments."""
-    logger.info(f"CALLING sum_two({first},{second})")
-
-    sum = first + second
-
-    logger.info(f"RETURNING {sum}")
-    return sum
  
 def sum_rectangle_list(rectangle_list):
     """Return the sum of four numbers in a list."""
@@ -108,11 +99,13 @@ def transform_using_keyword_args_with_default_values(input="bearcat", reverse=Fa
     
     s = f"CALLING transform_using_keyword_args_with_default_values(input={input}, reverse={reverse})"
     logger.info(s)
-    first_three = (input[0:3])
-    result = (first_three[::-1])
+    
+    result = input[:3]
+    if reverse:
+        n = len(input)
+        result = input [2::-1]
 
-    logger.info(f"The first 3 characters is {first_three}")
-    logger.info(f"the reversed first 3 letters is {result}")
+    logger.info(f"RETURNING {result}")
     return result
 
 
@@ -128,15 +121,12 @@ if __name__ == "__main__":
     transform_using_keyword_args_with_default_values()
     transform_using_keyword_args_with_default_values(reverse=True)
     transform_using_keyword_args_with_default_values(input="hello", reverse=True)
-
+    
     # -------------------------------------------------------------
     # Call some functions and execute code!
     # Nothing below here needs to change
     # -------------------------------------------------------------
 
-    transform_using_keyword_args_with_default_values()
-    transform_using_keyword_args_with_default_values(reverse=True)
-    transform_using_keyword_args_with_default_values(input="hello", reverse=True)
 
     logger.info("===========================================================")
     logger.info("Running doctest.testmod() function to unit test our code")
