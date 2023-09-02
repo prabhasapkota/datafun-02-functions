@@ -1,0 +1,59 @@
+2023-09-02 13:08:07,466.xtra_p2.INFO ==================================================
+2023-09-02 13:08:07,466.xtra_p2.INFO Today is 2023-09-02 at 01:08 PM
+2023-09-02 13:08:07,466.xtra_p2.INFO Running on: posix Darwin 21.1.0
+2023-09-02 13:08:07,466.xtra_p2.INFO Python version:  3.11.4
+2023-09-02 13:08:07,466.xtra_p2.INFO Python path: /Library/Frameworks/Python.framework/Versions/3.11
+2023-09-02 13:08:07,466.xtra_p2.INFO Working dir: /Users/prabha/Documents/CSIS-44608/datafun-02-functions
+2023-09-02 13:08:07,466.xtra_p2.INFO ==================================================
+2023-09-02 13:08:07,466.xtra_p2.INFO CALLING sum_two(1,2)
+2023-09-02 13:08:07,466.xtra_p2.INFO RETURNING 3
+2023-09-02 13:08:07,466.xtra_p2.INFO CALLING sum_two(hello,world)
+2023-09-02 13:08:07,466.xtra_p2.INFO RETURNING helloworld
+2023-09-02 13:08:07,467.xtra_p2.INFO CALLING sum_rectangle_list([1, 1, 3, 3])
+2023-09-02 13:08:07,467.xtra_p2.INFO RETURNING 8
+2023-09-02 13:08:07,467.xtra_p2.INFO CALLING sum_any_using_args((1, 1, 1, 2))
+2023-09-02 13:08:07,467.xtra_p2.INFO RETURNING 5
+2023-09-02 13:08:07,467.xtra_p2.INFO CALLING sum_any_with_keywords({'a': 1, 'b': 2, 'c': 3})
+2023-09-02 13:08:07,467.xtra_p2.INFO RETURNING 6
+2023-09-02 13:08:07,467.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=False)
+2023-09-02 13:08:07,467.xtra_p2.INFO The first 3 characters is bea
+2023-09-02 13:08:07,467.xtra_p2.INFO the reversed first 3 letters is aeb
+2023-09-02 13:08:07,467.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=True)
+2023-09-02 13:08:07,467.xtra_p2.INFO The first 3 characters is bea
+2023-09-02 13:08:07,467.xtra_p2.INFO the reversed first 3 letters is aeb
+2023-09-02 13:08:07,467.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=hello, reverse=True)
+2023-09-02 13:08:07,467.xtra_p2.INFO The first 3 characters is hel
+2023-09-02 13:08:07,467.xtra_p2.INFO the reversed first 3 letters is leh
+2023-09-02 13:08:07,467.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=False)
+2023-09-02 13:08:07,467.xtra_p2.INFO The first 3 characters is bea
+2023-09-02 13:08:07,467.xtra_p2.INFO the reversed first 3 letters is aeb
+2023-09-02 13:08:07,467.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=True)
+2023-09-02 13:08:07,467.xtra_p2.INFO The first 3 characters is bea
+2023-09-02 13:08:07,467.xtra_p2.INFO the reversed first 3 letters is aeb
+2023-09-02 13:08:07,467.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=hello, reverse=True)
+2023-09-02 13:08:07,467.xtra_p2.INFO The first 3 characters is hel
+2023-09-02 13:08:07,467.xtra_p2.INFO the reversed first 3 letters is leh
+2023-09-02 13:08:07,467.xtra_p2.INFO ===========================================================
+2023-09-02 13:08:07,467.xtra_p2.INFO Running doctest.testmod() function to unit test our code
+2023-09-02 13:08:07,467.xtra_p2.INFO ===========================================================
+2023-09-02 13:08:07,470.xtra_p2.INFO CALLING sum_two(1,2)
+2023-09-02 13:08:07,470.xtra_p2.INFO RETURNING 3
+2023-09-02 13:08:07,470.xtra_p2.INFO CALLING sum_two(hello, world)
+2023-09-02 13:08:07,470.xtra_p2.INFO RETURNING hello world
+2023-09-02 13:08:07,470.xtra_p2.INFO CALLING sum_rectangle_list([1, 1, 3, 3])
+2023-09-02 13:08:07,470.xtra_p2.INFO RETURNING 8
+2023-09-02 13:08:07,470.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=False)
+2023-09-02 13:08:07,471.xtra_p2.INFO The first 3 characters is bea
+2023-09-02 13:08:07,471.xtra_p2.INFO the reversed first 3 letters is aeb
+2023-09-02 13:08:07,471.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=True)
+2023-09-02 13:08:07,471.xtra_p2.INFO The first 3 characters is bea
+2023-09-02 13:08:07,471.xtra_p2.INFO the reversed first 3 letters is aeb
+2023-09-02 13:08:07,471.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=hello, reverse=True)
+2023-09-02 13:08:07,471.xtra_p2.INFO The first 3 characters is hel
+2023-09-02 13:08:07,471.xtra_p2.INFO the reversed first 3 letters is leh
+2023-09-02 13:08:07,471.xtra_p2.INFO CALLING sum_any_using_args((1, 1, 1, 2))
+2023-09-02 13:08:07,471.xtra_p2.INFO RETURNING 5
+2023-09-02 13:08:07,471.xtra_p2.INFO CALLING sum_any_with_keywords({'a': 1, 'b': 2, 'c': 3})
+2023-09-02 13:08:07,471.xtra_p2.INFO RETURNING 6
+2023-09-02 13:08:07,471.xtra_p2.ERROR 1 tests failed!
+2023-09-02 13:08:07,471.xtra_p2.INFO Script complete. More info in the log file.
