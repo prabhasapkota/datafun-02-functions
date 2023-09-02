@@ -1,17 +1,18 @@
-2023-09-01 00:22:44,539.user_easy_stats_prabha.INFO ==================================================
-2023-09-01 00:22:44,539.user_easy_stats_prabha.INFO Today is 2023-09-01 at 12:22 AM
-2023-09-01 00:22:44,539.user_easy_stats_prabha.INFO Running on: posix Darwin 21.1.0
-2023-09-01 00:22:44,539.user_easy_stats_prabha.INFO Python version:  3.11.4
-2023-09-01 00:22:44,539.user_easy_stats_prabha.INFO Python path: /Library/Frameworks/Python.framework/Versions/3.11
-2023-09-01 00:22:44,539.user_easy_stats_prabha.INFO Working dir: /Users/prabha/Documents/CSIS-44608/datafun-02-functions
-2023-09-01 00:22:44,539.user_easy_stats_prabha.INFO ==================================================
-2023-09-01 00:22:44,549.user_easy_stats_prabha.INFO YAYY I DID MY TASK 5!!!
-2023-09-01 00:22:44,549.user_easy_stats_prabha.INFO Total flowers numbers is 236
-2023-09-01 00:22:44,549.user_easy_stats_prabha.INFO Female flowers numbers is 78
-2023-09-01 00:22:44,549.user_easy_stats_prabha.INFO mean = 19.7
-2023-09-01 00:22:44,549.user_easy_stats_prabha.INFO median = 21.5
-2023-09-01 00:22:44,549.user_easy_stats_prabha.INFO mode = 31.0
-2023-09-01 00:22:44,549.user_easy_stats_prabha.INFO var = 99.33
-2023-09-01 00:22:44,549.user_easy_stats_prabha.INFO stdev = 9.97
-2023-09-01 00:22:44,549.user_easy_stats_prabha.INFO lowest = 2
-2023-09-01 00:22:44,549.user_easy_stats_prabha.INFO highest = 31
+2023-09-02 13:07:04,814.user_easy_stats_prabha.INFO ==================================================
+2023-09-02 13:07:04,814.user_easy_stats_prabha.INFO Today is 2023-09-02 at 01:07 PM
+2023-09-02 13:07:04,814.user_easy_stats_prabha.INFO Running on: posix Darwin 21.1.0
+2023-09-02 13:07:04,814.user_easy_stats_prabha.INFO Python version:  3.11.4
+2023-09-02 13:07:04,814.user_easy_stats_prabha.INFO Python path: /Library/Frameworks/Python.framework/Versions/3.11
+2023-09-02 13:07:04,814.user_easy_stats_prabha.INFO Working dir: /Users/prabha/Documents/CSIS-44608/datafun-02-functions
+2023-09-02 13:07:04,814.user_easy_stats_prabha.INFO ==================================================
+2023-09-02 13:07:04,825.user_easy_stats_prabha.INFO YAYY I DID MY TASK 5!!!
+2023-09-02 13:07:04,825.user_easy_stats_prabha.INFO Total flowers numbers is 236
+2023-09-02 13:07:04,825.user_easy_stats_prabha.INFO Female flowers numbers is 78
+2023-09-02 13:07:04,825.user_easy_stats_prabha.INFO mean = 19.67
+2023-09-02 13:07:04,825.user_easy_stats_prabha.INFO median = 21.50
+2023-09-02 13:07:04,825.user_easy_stats_prabha.INFO mode = 31.0
+2023-09-02 13:07:04,825.user_easy_stats_prabha.INFO var = 99.33
+2023-09-02 13:07:04,825.user_easy_stats_prabha.INFO stdev = 9.97
+2023-09-02 13:07:04,825.user_easy_stats_prabha.INFO lowest = 2
+2023-09-02 13:07:04,825.user_easy_stats_prabha.INFO highest = 31
+2023-09-02 13:07:04,825.user_easy_stats_prabha.INFO range = 29.00

@@ -46,6 +46,54 @@ logger, logname = setup_logger(__file__)
 # TODO: Log each time the function is called (along with its arguments)
 # TODO: Log the result of each function just before you return the result
 
+def sum_two(first, second):
+    """Return the sum of any two arguments."""
+    logger.info(f"CALLING sum_two({first},{second})")
+
+    sum = first + second
+
+    logger.info(f"RETURNING {sum}")
+    return sum
+
+def sum_two(first, second):
+    """Return the sum of any two arguments."""
+    logger.info(f"CALLING sum_two({first},{second})")
+
+    sum = first + second
+
+    logger.info(f"RETURNING {sum}")
+    return sum
+ 
+def sum_rectangle_list(rectangle_list):
+    """Return the sum of four numbers in a list."""
+    logger.info(f"CALLING sum_rectangle_list({rectangle_list})")
+
+    sum = 0
+    for value in rectangle_list:
+        sum = sum + value
+        
+    logger.info(f"RETURNING {sum}")
+    return sum
+
+def sum_any_using_args(*args):
+    """Return the sum of numbers, using built-in *args."""
+    logger.info(f"CALLING sum_any_using_args({args})")
+    sum = 0
+    for x in args:
+        sum += x  # Use the popular and concise version of sum = sum + x
+
+    logger.info(f"RETURNING {sum}")
+    return sum
+
+def sum_any_with_keyword_arguments_kwargs(**kwargs):
+    """Return the sum of numbers, using built-in keyword args, **kwargs."""
+    logger.info(f"CALLING sum_any_with_keywords({kwargs})")
+    sum = 0
+    for value in kwargs.values():  # use values() - name doesn't matter
+        sum += value  # Use the popular and concise version of sum = sum + x
+    
+    logger.info(f"RETURNING {sum}")
+    return sum
 
 
 
@@ -60,15 +108,26 @@ def transform_using_keyword_args_with_default_values(input="bearcat", reverse=Fa
     
     s = f"CALLING transform_using_keyword_args_with_default_values(input={input}, reverse={reverse})"
     logger.info(s)
+    first_three = (input[0:3])
+    result = (first_three[::-1])
 
-    result = input
-
-    logger.info(f"RETURNING {result}")
+    logger.info(f"The first 3 characters is {first_three}")
+    logger.info(f"the reversed first 3 letters is {result}")
     return result
 
 
 
 if __name__ == "__main__":
+
+    sum_two(1,2)
+    sum_two("hello","world")
+    sum_rectangle_list([1,1,3,3])
+    sum_any_using_args(1,1,1,2)
+    sum_any_with_keyword_arguments_kwargs(a=1,b=2,c=3)
+    
+    transform_using_keyword_args_with_default_values()
+    transform_using_keyword_args_with_default_values(reverse=True)
+    transform_using_keyword_args_with_default_values(input="hello", reverse=True)
 
     # -------------------------------------------------------------
     # Call some functions and execute code!

@@ -1,0 +1,28 @@
+2023-09-02 13:05:59,645.numeric_yield_series.INFO ==================================================
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Today is 2023-09-02 at 01:05 PM
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Running on: posix Darwin 21.1.0
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Python version:  3.11.4
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Python path: /Library/Frameworks/Python.framework/Versions/3.11
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Working dir: /Users/prabha/Documents/CSIS-44608/datafun-02-functions
+2023-09-02 13:05:59,645.numeric_yield_series.INFO ==================================================
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Created: NumericYieldSeries with name=Yield on 2022, units=kg, location=Durham NC, and 5 data points: [100, 84, 75, 78, 103.3]
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Created: NumericYieldSeries with name=Yield on 2021, units=kg, location=Durham NC, and 7 data points: [75, 62, 100, 30, 50, 73, 103]
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Created: NumericYieldSeries with name=Yield on 2020, units=kg, location=Durham NC, and 50 data points: [50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+2023-09-02 13:05:59,645.numeric_yield_series.INFO NumericYieldSeries with name=Yield on 2022, units=kg, location=Durham NC, and 5 data points: [100, 84, 75, 78, 103.3]
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Count: 5
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Sum: 440.3
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Mean: 88.06
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Median: 84
+2023-09-02 13:05:59,645.numeric_yield_series.INFO ------------------
+2023-09-02 13:05:59,645.numeric_yield_series.INFO NumericYieldSeries with name=Yield on 2021, units=kg, location=Durham NC, and 7 data points: [75, 62, 100, 30, 50, 73, 103]
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Count: 7
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Sum: 493
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Mean: 70.42857142857143
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Median: 73
+2023-09-02 13:05:59,645.numeric_yield_series.INFO ------------------
+2023-09-02 13:05:59,645.numeric_yield_series.INFO NumericYieldSeries with name=Yield on 2020, units=kg, location=Durham NC, and 50 data points: [50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Count: 50
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Sum: 3725
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Mean: 74.5
+2023-09-02 13:05:59,645.numeric_yield_series.INFO Median: 74.5
+2023-09-02 13:05:59,645.numeric_yield_series.INFO ------------------
