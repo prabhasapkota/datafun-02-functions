@@ -1,6 +1,6 @@
 """
 
-Purpose: Illustrate the built-in statistics of flowers in cucumbers.
+Purpose: Illustrate the built-in statistics of datasets (flowers in cucumbers).
 
 VS Code Menu / View / Command Palette / Python Interpreter
 Must be 3.10 or greater to get the correlation and linear regression.
@@ -11,7 +11,8 @@ Uses only Python Standard Library modules.
 @ uses sys module for checking Python version
 
 """
-# ----------------- INSTRUCTOR GENERATED CODE -----------------
+#  Name: Prabha Sapkota
+# Date: 09/02/2023
 
 # Use this handy logger to document your work automatically
 
@@ -31,7 +32,7 @@ import sys
 
 
 
-# Datasets
+# Datasets to perform statistical analysis where x is female flowers and y is total flowers in cucumber plant.
 femaleflowers = [1, 3, 3, 4, 5, 6, 7, 6, 9, 15, 11, 8]
 totalflowers = [2, 6, 8, 20, 21, 23, 15, 27, 30, 31, 31, 22]
 
@@ -46,6 +47,7 @@ var = statistics.variance(totalflowers)
 stdev = statistics.stdev(totalflowers)
 lowest = min(totalflowers)
 highest = max(totalflowers)
+range = highest - lowest
 
 # if the lists are not the same size,
 # log an error and quit the program
@@ -60,10 +62,11 @@ logger.info("YAYY I DID MY TASK 5!!!")
 logger.info(f"Total flowers numbers is {totalflowers_no}")
 logger.info(f"Female flowers numbers is {femaleflowers_no}")
 
-logger.info(f"mean = {mean:.1f}")
-logger.info(f"median = {median:.1f}")
+logger.info(f"mean = {mean:.2f}")
+logger.info(f"median = {median:.2f}")
 logger.info(f"mode = {mode:.1f}")
 logger.info(f"var = {var:.2f}")
 logger.info(f"stdev = {stdev:.2f}")
 logger.info(f"lowest = {lowest:.0f}")
 logger.info(f"highest = {highest:.0f}")
+logger.info(f"range = {range:.2f}")

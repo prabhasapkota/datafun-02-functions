@@ -77,13 +77,13 @@ def get_field_areas_given_list(height_list, width_list):
 
 def get_total_plantsnumbers(plantnumbers_list):
     """
-    This function should return a list with plantnumbers in a field.
+    This function should return a total plantnumbers in a field.
     
     """
     logger.info(f"CALLING get_total_plantnumbers({plantnumbers_list})") 
 
     try:
-         total = sum(plantnumbers_list)
+         total = math.fsum(plantnumbers_list)
          logger.info(f"Total plantnumbers is {total}")
          return total
     except Exception as ex:
